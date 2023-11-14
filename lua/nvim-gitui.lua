@@ -1,6 +1,6 @@
 local M = {}
 
-let g:nvim_gitui_loaded = 1
+g:loaded_nvim_gitui = 1
 
 -- default config
 local default_config = {
@@ -17,7 +17,7 @@ local default_config = {
 M.config = {}
 
 M.setup = function(config)
-  if(g:nvim_gitui_loaded == 1) then
+  if(g:loaded_nvim_gitui == 1) then
     return
   end
   
@@ -69,6 +69,6 @@ M.open_gitui = function()
   vim.cmd("startinsert!")
 end
 
-g:nvim_gitui_loaded = 1
+g:loaded_nvim_gitui = 1
 
 return M
