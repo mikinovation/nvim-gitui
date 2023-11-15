@@ -17,10 +17,6 @@ local default_config = {
 M.config = {}
 
 M.setup = function(config)
-  if(vim.g.loaded_nvim_gitui == 1) then
-    return
-  end
-  
   config = vim.tbl_deep_extend("force", default_config, config or {})
 
   vim.api.nvim_set_keymap(
