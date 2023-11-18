@@ -1,0 +1,59 @@
+*nvim-gitui.txt*     Neovim Gitui integration plugin
+
+CONTENTS                                   *nvim-gitui-contents*
+
+    1. Introduction ................. |nvim-gitui-introduction|
+    2. Installation .................. |nvim-gitui-installation|
+    3. Configuration ............... |nvim-gitui-configuration|
+    4. Usage .......................... |nvim-gitui-usage|
+    5. Commands .................... |nvim-gitui-commands|
+    6. License ........................ |nvim-gitui-license|
+
+
+INTRODUCTION                           *nvim-gitui-introduction*
+
+nvim-gitui is a plugin for Neovim that provides seamless integration
+with Gitui, enhancing the Git workflow within the Neovim environment.
+
+
+INSTALLATION                           *nvim-gitui-installation*
+
+To install nvim-gitui, use your preferred plugin manager.
+
+For packer.nvim:
+>
+    use 'mikinovation/nvim-gitui'
+<
+
+For dein.vim:
+>
+    [[plugins]]
+    repo = 'mikinovation/nvim-gitui'
+<
+
+
+CONFIGURATION                         *nvim-gitui-configuration*
+
+To configure nvim-gitui, add the following to your `init.lua`:
+>
+    require('nvim-gitui')
+<
+
+More configuration details will be added soon.
+
+
+USAGE                                   *nvim-gitui-usage*
+
+[Detailed usage instructions]
+
+
+COMMANDS                             *nvim-gitui-commands*
+
+[Description of commands provided by the plugin]
+
+
+LICENSE                                 *nvim-gitui-license*
+
+nvim-gitui is licensed under the MIT License. See the LICENSE file
+for more details.
+
