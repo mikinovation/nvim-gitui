@@ -4,13 +4,15 @@ vim.g.loaded_nvim_gitui = 0
 
 -- default config
 local default_config = {
+  -- Keymaps settings
   keymaps = {
-    n = "<leader>gu",
+    n = "<leader>gu", -- Normal mode keybinding
   },
+  -- Window appearance settings
   window = {
-    width = 0.9,
-    height = 0.9,
-    border = "rounded",
+    width = 0.9, -- Window width as a percentage of the screen
+    height = 0.9, -- Window height as a percentage of the screen
+    border = "rounded", -- Border style (options: "rounded", "single", "double", "shadow", "none")
   }
 }
 
