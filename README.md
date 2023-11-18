@@ -1,48 +1,61 @@
 # nvim-gitui
 
-- [nvim-gitui](#nvim-gitui)
-  - [Features](#features)
-  - [Getting started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Config example](#config-example)
-  - [License](#license)# Features
+`nvim-gitui` is a Neovim plugin that enables seamless integration between Gitui and Neovim. By combining the powerful Git repository management features of Gitui with the comfortable editing environment of Neovim, this plugin streamlines your development workflow.
 
-# Features
+## Table of Contents
 
-Enabling seamless operation between Gitui and Neovim
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [Using packer.nvim](#using-packernvim)
+  - [Using dein.vim](#using-deinvim)
+- [Setup](#setup)
+- [Configuration Example](#configuration-example)
+- [License](#license)
 
-You can use Gitui on Neovim
+## Features
+
+- Execute Gitui commands directly from Neovim.
+- Visualize Git operations within Neovim.
+- Enhance efficiency in managing your Git repositories.
 
 ## Prerequisites
 
-- Neovim >= 0.8~
-- Gitui is already installed
+- Neovim version 0.8 or higher.
+- Gitui installed on your system.
 
 ## Installation
 
-### packer.nvim
+`nvim-gitui` can be easily installed using the following plugin managers:
 
-```
+### Using packer.nvim
+
+```lua
 use 'mikinovation/nvim-gitui'
 ```
 
-### dein.vim
+### Using dein.vim
 
-```dein.toml
+```toml
 [[plugins]]
 repo = 'mikinovation/nvim-gitui'
 ```
 
 ## Setup
 
-```init.lua
-require('nvim-gitui')
+To enable `nvim-gitui`, add the following code to your `init.lua` file:
+
+```lua
+require('nvim-gitui').setup {}
 ```
 
-## Configuration
+## Configuration Example
 
-TODO
+Here is an example configuration for `nvim-gitui`:
+
+```lua
+-- Detailed configurations will be added soon
+```
 
 ## License
 
